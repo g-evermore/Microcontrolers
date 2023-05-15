@@ -19,7 +19,7 @@ write those readings to a CSV file by recording the date, time, recording device
 As of the time of writing:
 
 
-  Recording devices are a set of Raspberry Pi PICO W attached with DHT type 11 sensors. The PICO W was selected due it
+  Recording devices are a set of Raspberry Pi PICO W attached with DHT type 11 sensors. The PICO W was selected due
   the price and availability as well as the added wireless and bluetooth functionality. The DHT type 11 sensors were
   similarly chosen due to their price and easy availability.
  
