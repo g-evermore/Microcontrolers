@@ -11,4 +11,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
     sock.sendall(byt_input_msg)
     byt_server_response = sock.recv(1024)
 
-print(f"Server responded with: {byt_server_response.decode()}\n")
+print(f"{byt_server_response.decode()}")
