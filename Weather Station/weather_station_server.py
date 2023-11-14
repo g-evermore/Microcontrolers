@@ -5,7 +5,7 @@ import csv
 HOST = "127.0.0.1"
 PORT = 1234
 output_filename = 'weather_station_recordings.csv'
-print("Weather Station server stated...")
+print("Weather Station server started...")
 
 def record_to_csv(environmental_reading):
      with open(output_filename, 'a', newline='') as output_file:

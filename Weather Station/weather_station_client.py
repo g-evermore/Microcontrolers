@@ -3,7 +3,7 @@ import socket
 HOST = "127.0.0.1"
 PORT = 1234
 
-input_msg = input("Please provide a messag to send to server:\n")
+input_msg = input("Please provide a message to send to server:\n")
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
     sock.connect((HOST, PORT))
